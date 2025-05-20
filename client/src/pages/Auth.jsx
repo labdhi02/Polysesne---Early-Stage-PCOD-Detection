@@ -52,6 +52,45 @@ function Auth() {
     }
   };
 
+  const handleLogin = async (e) => {
+    e.preventDefault();
+    setIsLoading(true);
+    
+    console.log('Attempting login with:', { email: form.username, password: form.password });
+    
+    try {
+      // Try the direct login endpoint first to verify basic connectivity
+      const res = await axios.post('/api/login/direct', {});
+      
+      console.log('Direct login response:', res.data);
+      
+      // Store the token and username in localStorage
+      localStorage.setItem('token', res.data.token);
+      localStorage.setItem('username', res.data.username);
+      
+      // Show success message
+      setMessage("Login successful!");
+      setMessageType("success");
+      
+      // Redirect to Home2 page after successful login
+      setTimeout(() => {
+        navigate('/home2');
+      }, 1000);
+      
+    } catch (error) {
+      console.error('Login error:', error);
+      console.error('Login error status:', error.response?.status);
+      console.error('Login error details:', error.response?.data);
+      
+      // Show the specific error message from the server if available
+      const errorMessage = error.response?.data?.msg || 'Login failed. Please try again.';
+      setMessage(errorMessage);
+      setMessageType("error");
+    } finally {
+      setIsLoading(false);
+    }
+  };
+
   return (
     <div
       className="min-h-screen bg-cover bg-center flex items-center justify-center"
