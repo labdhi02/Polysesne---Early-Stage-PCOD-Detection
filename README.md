@@ -30,29 +30,45 @@ Polysense is a comprehensive web application designed to help women track their 
 
 ## 📸 Screenshots
 
-<details>
-<summary>Click to view screenshots</summary>
-
-### Home Page
-![Home Page](https://raw.githubusercontent.com/labdhi02/Polysesne---Early-Stage-PCOD-Detection/main/client/assets/ReademeImage/home.png)
 
 
-### Period Tracking Dashboard
-![Dashboard](screenshots/dashboard.png)
+### 1. Home Page  
+![Home Page](https://raw.githubusercontent.com/labdhi02/Polysesne---Early-Stage-PCOD-Detection/main/client/assets/ReademeImage/home.png)  
 
-### PCOD Test
-![PCOD Test](screenshots/test.png)
+---
 
-### Results Page
-![Results](screenshots/results.png)
+### 2. Period Tracking Dashboard  
+![Period Tracking Dashboard](https://github.com/labdhi02/Polysesne---Early-Stage-PCOD-Detection/blob/main/client/assets/ReademeImage/home2.png)  
 
-### Meal Plan
-![Meal Plan](screenshots/meal-plan.png)
+---
 
-### Workout Plan
-![Workout Plan](screenshots/workout-plan.png)
+### 3. Information Section  
+![Information Section](https://github.com/labdhi02/Polysesne---Early-Stage-PCOD-Detection/blob/main/client/assets/ReademeImage/track.png)  
 
-</details>
+---
+
+### 4. PCOD Test  
+![PCOD Test](https://github.com/labdhi02/Polysesne---Early-Stage-PCOD-Detection/blob/main/client/assets/ReademeImage/test.png)  
+
+---
+
+### 5. Results Page  
+![Results Page](https://github.com/labdhi02/Polysesne---Early-Stage-PCOD-Detection/blob/main/client/assets/ReademeImage/result.png)  
+
+---
+
+### 6. Meal Plan  
+#### Example 1  
+![Meal Plan Example 1](https://github.com/labdhi02/Polysesne---Early-Stage-PCOD-Detection/blob/main/client/assets/ReademeImage/mealplan.png)  
+#### Example 2  
+![Meal Plan Example 2](https://github.com/labdhi02/Polysesne---Early-Stage-PCOD-Detection/blob/main/client/assets/ReademeImage/mealplan2.png)  
+
+---
+
+### 7. Workout Plan  
+![Workout Plan](https://github.com/labdhi02/Polysesne---Early-Stage-PCOD-Detection/blob/main/client/assets/ReademeImage/workoutplan.png)  
+
+
 
 ## 🏗️ Project Structure
 
