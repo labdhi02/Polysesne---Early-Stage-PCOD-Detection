@@ -34,7 +34,8 @@ Polysense is a comprehensive web application designed to help women track their 
 <summary>Click to view screenshots</summary>
 
 ### Home Page
-![Home Page](screenshots/home.png)
+![Home Page](https://raw.githubusercontent.com/labdhi02/Polysesne---Early-Stage-PCOD-Detection/main/client/assets/ReademeImage/home.png)
+
 
 ### Period Tracking Dashboard
 ![Dashboard](screenshots/dashboard.png)
